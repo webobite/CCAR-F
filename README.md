@@ -18,6 +18,7 @@ This repo is used to practise for my certification.
 | [system_prompt.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/system_prompt.ipynb) | Examples of using system prompts to steer model behavior (e.g. a step-by-step math tutor persona) |
 | [temperature_demo.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/temperature_demo.ipynb) | Demonstrates the effect of the `temperature` parameter on response creativity/determinism using both the OpenAI and Anthropic SDKs |
 | [streaming.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/streaming.ipynb) | Demonstrates streaming responses chunk-by-chunk using the OpenAI and Anthropic SDKs |
+| [controlling_output.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/controlling_output.ipynb) | Demonstrates constraining model output (e.g. prefilling a response and using stop sequences to produce parseable JSON/CLI output) with the OpenAI and Anthropic SDKs |
 
 ## Notes
 
