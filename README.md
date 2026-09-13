@@ -16,6 +16,7 @@ This repo is used to practise for my certification.
 | [Making-request-with-claude-api.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/Making-request-with-claude-api.ipynb) | Basic single- and multi-turn requests to Claude via the Anthropic SDK and via the OpenAI SDK pointed at an AICredits gateway |
 | [Simple-chat-bot.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/Simple-chat-bot.ipynb) | A simple interactive chat loop that maintains conversation history across turns |
 | [system_prompt.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/system_prompt.ipynb) | Examples of using system prompts to steer model behavior (e.g. a step-by-step math tutor persona) |
+| [temperature_demo.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/temperature_demo.ipynb) | Demonstrates the effect of the `temperature` parameter on response creativity/determinism using both the OpenAI and Anthropic SDKs |
 
 ## Setup
 
