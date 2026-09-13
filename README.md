@@ -19,6 +19,7 @@ This repo is used to practise for my certification.
 | [temperature_demo.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/temperature_demo.ipynb) | Demonstrates the effect of the `temperature` parameter on response creativity/determinism using both the OpenAI and Anthropic SDKs |
 | [streaming.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/streaming.ipynb) | Demonstrates streaming responses chunk-by-chunk using the OpenAI and Anthropic SDKs |
 | [controlling_output.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/controlling_output.ipynb) | Demonstrates constraining model output (e.g. prefilling a response and using stop sequences to produce parseable JSON/CLI output) with the OpenAI and Anthropic SDKs |
+| [prompt_evaluation.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/prompt_evaluation.ipynb) | Builds a prompt evaluation pipeline: generates a test dataset, runs prompts against it, and grades outputs using code-based, model-based, and syntax validation graders |
 
 ## Notes
 
@@ -28,6 +29,7 @@ Reference images used alongside the notebooks, in [D_1-Agentic_Foundations-Agent
 | --- | --- |
 | [temperature-ranges.png](D_1-Agentic_Foundations-Agents-vs-Workflows/notes/temperature-ranges.png) | Visual reference for how `temperature` values map to more deterministic vs. more creative model outputs |
 | [streaming-response-understanding.png](D_1-Agentic_Foundations-Agents-vs-Workflows/notes/streaming-response-understanding.png) | Visual reference explaining how streaming responses work |
+| [grader-types.png](D_1-Agentic_Foundations-Agents-vs-Workflows/notes/grader-types.png) | Visual reference comparing code, model, and human graders for evaluating prompt outputs |
 
 ## Setup
 
