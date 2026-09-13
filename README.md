@@ -17,6 +17,16 @@ This repo is used to practise for my certification.
 | [Simple-chat-bot.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/Simple-chat-bot.ipynb) | A simple interactive chat loop that maintains conversation history across turns |
 | [system_prompt.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/system_prompt.ipynb) | Examples of using system prompts to steer model behavior (e.g. a step-by-step math tutor persona) |
 | [temperature_demo.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/temperature_demo.ipynb) | Demonstrates the effect of the `temperature` parameter on response creativity/determinism using both the OpenAI and Anthropic SDKs |
+| [streaming.ipynb](D_1-Agentic_Foundations-Agents-vs-Workflows/streaming.ipynb) | Demonstrates streaming responses chunk-by-chunk using the OpenAI and Anthropic SDKs |
+
+## Notes
+
+Reference images used alongside the notebooks, in [D_1-Agentic_Foundations-Agents-vs-Workflows/notes](D_1-Agentic_Foundations-Agents-vs-Workflows/notes):
+
+| Note | Description |
+| --- | --- |
+| [temperature-ranges.png](D_1-Agentic_Foundations-Agents-vs-Workflows/notes/temperature-ranges.png) | Visual reference for how `temperature` values map to more deterministic vs. more creative model outputs |
+| [streaming-response-understanding.png](D_1-Agentic_Foundations-Agents-vs-Workflows/notes/streaming-response-understanding.png) | Visual reference explaining how streaming responses work |
 
 ## Setup
 
