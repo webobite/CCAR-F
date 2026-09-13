@@ -1,10 +1,10 @@
 import os
+from dotenv import load_dotenv
 from openai import OpenAI
 
-client = OpenAI(
-    base_url="https://api.aicredits.in/v1",
-    api_key=os.environ.get("AICREDITS_API_KEY"),
-)
+load_dotenv()  # walks up from cwd, picks up the shared .env at repo root
+
+client = OpenAI(base_url=os.environ.get("AICREDITS_BASE_URL"), api_key=os.environ.get("AICREDITS_API_KEY"))
 
 # Using Haiku (cheapest — best for practice)
 response = client.chat.completions.create(
