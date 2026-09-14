@@ -1,3 +1,4 @@
 OpenAI
 python-dotenv
 anthropic
+voyageai
