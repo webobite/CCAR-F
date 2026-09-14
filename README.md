@@ -23,6 +23,7 @@ Notebooks in [Building_with_Claude_API_Courses](Building_with_Claude_API_Courses
 | [controlling_output.ipynb](Building_with_Claude_API_Courses/controlling_output.ipynb) | Demonstrates constraining model output (e.g. prefilling a response and using stop sequences to produce parseable JSON/CLI output) with the OpenAI and Anthropic SDKs |
 | [prompt_evaluation.ipynb](Building_with_Claude_API_Courses/prompt_evaluation.ipynb) | Builds a prompt evaluation pipeline: generates a test dataset, runs prompts against it, and grades outputs using code-based, model-based, and syntax validation graders |
 | [prompt_engineering_techiniques.ipynb](Building_with_Claude_API_Courses/prompt_engineering_techiniques.ipynb) | Implements a reusable `PromptEvaluator` framework (test case generation, concurrent grading, HTML report output) to evaluate prompt engineering techniques such as being specific, clear and direct, and providing examples, steps, and guidelines |
+| [tool_calling_functions.ipynb](Building_with_Claude_API_Courses/tool_calling_functions.ipynb) | Demonstrates tool/function calling (defining tool schemas, handling tool-use responses, and returning tool results) with both the Anthropic and OpenAI SDKs |
 
 ## Notes
 
@@ -38,6 +39,8 @@ Reference images used alongside the notebooks, in [Building_with_Claude_API_Cour
 | [prompt_engineering_technique_provide_examples.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_provide_examples.png) | Visual reference for the "provide examples" prompt engineering technique |
 | [prompt_engineering_technique_provide_steps.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_provide_steps.png) | Visual reference for the "provide steps" prompt engineering technique |
 | [prompt_engineering_technique_guidelines.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_guidelines.png) | Visual reference for the "provide guidelines" prompt engineering technique |
+| [Multi-block-messages.png](Building_with_Claude_API_Courses/notes/Multi-block-messages.png) | Visual reference explaining multi-block messages |
+| [tool_calls_sequences.png](Building_with_Claude_API_Courses/notes/tool_calls_sequences.png) | Visual reference explaining the sequence of tool calls between the model and the client |
 
 ## Setup
 
