@@ -21,18 +21,18 @@ Notebooks in [Building_with_Claude_API_Courses](Building_with_Claude_API_Courses
 | [temperature_demo.ipynb](Building_with_Claude_API_Courses/temperature_demo.ipynb) | Demonstrates the effect of the `temperature` parameter on response creativity/determinism using both the OpenAI and Anthropic SDKs |
 | [streaming.ipynb](Building_with_Claude_API_Courses/streaming.ipynb) | Demonstrates streaming responses chunk-by-chunk using the OpenAI and Anthropic SDKs |
 | [controlling_output.ipynb](Building_with_Claude_API_Courses/controlling_output.ipynb) | Demonstrates constraining model output (e.g. prefilling a response and using stop sequences to produce parseable JSON/CLI output) with the OpenAI and Anthropic SDKs |
-| [chunking.ipynb](Building_with_Claude_API_Courses/chunking.ipynb) | Demonstrates chunking strategies for longer inputs and staged processing of model response content |
+| [tool_calling_functions.ipynb](Building_with_Claude_API_Courses/tool_calling_functions.ipynb) | Demonstrates tool/function calling (defining tool schemas, handling tool-use responses, and returning tool results) with both the Anthropic and OpenAI SDKs |
 | [multi_tools_calling.ipynb](Building_with_Claude_API_Courses/multi_tools_calling.ipynb) | Example of multiple tool calls in a single request and how to coordinate tool results |
 | [multi_tools_calling_2.ipynb](Building_with_Claude_API_Courses/multi_tools_calling_2.ipynb) | Follow-up example covering additional multi-tool orchestration patterns |
-| [tool_calling_functions.ipynb](Building_with_Claude_API_Courses/tool_calling_functions.ipynb) | Demonstrates tool/function calling (defining tool schemas, handling tool-use responses, and returning tool results) with both the Anthropic and OpenAI SDKs |
 | [tool_streaming.ipynb](Building_with_Claude_API_Courses/tool_streaming.ipynb) | Shows how streaming tool calls are processed and how partial arguments are accumulated over chunks |
 | [005_text_editor_tool.ipynb](Building_with_Claude_API_Courses/005_text_editor_tool.ipynb) | Implements a text-editor tool that can read, create, and edit files through model-driven tool calls |
+| [prompt_engineering_techiniques.ipynb](Building_with_Claude_API_Courses/prompt_engineering_techiniques.ipynb) | Implements a reusable `PromptEvaluator` framework (test case generation, concurrent grading, HTML report output) to evaluate prompt engineering techniques such as being specific, clear and direct, and providing examples, steps, and guidelines |
+| [prompt_evaluation.ipynb](Building_with_Claude_API_Courses/prompt_evaluation.ipynb) | Builds a prompt evaluation pipeline: generates a test dataset, runs prompts against it, and grades outputs using code-based, model-based, and syntax validation graders |
+| [chunking.ipynb](Building_with_Claude_API_Courses/chunking.ipynb) | Demonstrates chunking strategies for longer inputs and staged processing of model response content |
 | [embeddings.ipynb](Building_with_Claude_API_Courses/embeddings.ipynb) | Explores embeddings and vector-style retrieval workflows with the model APIs |
 | [bm25.ipynb](Building_with_Claude_API_Courses/bm25.ipynb) | Covers BM25 keyword-based retrieval and ranking as a complementary search approach |
 | [vectordb.ipynb](Building_with_Claude_API_Courses/vectordb.ipynb) | Explores vector database storage and retrieval patterns for semantic search workflows |
 | [hybrid.ipynb](Building_with_Claude_API_Courses/hybrid.ipynb) | Combines lexical and semantic retrieval to build a hybrid search pipeline |
-| [prompt_evaluation.ipynb](Building_with_Claude_API_Courses/prompt_evaluation.ipynb) | Builds a prompt evaluation pipeline: generates a test dataset, runs prompts against it, and grades outputs using code-based, model-based, and syntax validation graders |
-| [prompt_engineering_techiniques.ipynb](Building_with_Claude_API_Courses/prompt_engineering_techiniques.ipynb) | Implements a reusable `PromptEvaluator` framework (test case generation, concurrent grading, HTML report output) to evaluate prompt engineering techniques such as being specific, clear and direct, and providing examples, steps, and guidelines |
 
 ## Notes
 
