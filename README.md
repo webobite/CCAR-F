@@ -28,6 +28,9 @@ Notebooks in [Building_with_Claude_API_Courses](Building_with_Claude_API_Courses
 | [tool_streaming.ipynb](Building_with_Claude_API_Courses/tool_streaming.ipynb) | Shows how streaming tool calls are processed and how partial arguments are accumulated over chunks |
 | [005_text_editor_tool.ipynb](Building_with_Claude_API_Courses/005_text_editor_tool.ipynb) | Implements a text-editor tool that can read, create, and edit files through model-driven tool calls |
 | [embeddings.ipynb](Building_with_Claude_API_Courses/embeddings.ipynb) | Explores embeddings and vector-style retrieval workflows with the model APIs |
+| [bm25.ipynb](Building_with_Claude_API_Courses/bm25.ipynb) | Covers BM25 keyword-based retrieval and ranking as a complementary search approach |
+| [vectordb.ipynb](Building_with_Claude_API_Courses/vectordb.ipynb) | Explores vector database storage and retrieval patterns for semantic search workflows |
+| [hybrid.ipynb](Building_with_Claude_API_Courses/hybrid.ipynb) | Combines lexical and semantic retrieval to build a hybrid search pipeline |
 | [prompt_evaluation.ipynb](Building_with_Claude_API_Courses/prompt_evaluation.ipynb) | Builds a prompt evaluation pipeline: generates a test dataset, runs prompts against it, and grades outputs using code-based, model-based, and syntax validation graders |
 | [prompt_engineering_techiniques.ipynb](Building_with_Claude_API_Courses/prompt_engineering_techiniques.ipynb) | Implements a reusable `PromptEvaluator` framework (test case generation, concurrent grading, HTML report output) to evaluate prompt engineering techniques such as being specific, clear and direct, and providing examples, steps, and guidelines |
 
