@@ -22,6 +22,7 @@ Notebooks in [Building_with_Claude_API_Courses](Building_with_Claude_API_Courses
 | [streaming.ipynb](Building_with_Claude_API_Courses/streaming.ipynb) | Demonstrates streaming responses chunk-by-chunk using the OpenAI and Anthropic SDKs |
 | [controlling_output.ipynb](Building_with_Claude_API_Courses/controlling_output.ipynb) | Demonstrates constraining model output (e.g. prefilling a response and using stop sequences to produce parseable JSON/CLI output) with the OpenAI and Anthropic SDKs |
 | [prompt_evaluation.ipynb](Building_with_Claude_API_Courses/prompt_evaluation.ipynb) | Builds a prompt evaluation pipeline: generates a test dataset, runs prompts against it, and grades outputs using code-based, model-based, and syntax validation graders |
+| [prompt_engineering_techiniques.ipynb](Building_with_Claude_API_Courses/prompt_engineering_techiniques.ipynb) | Implements a reusable `PromptEvaluator` framework (test case generation, concurrent grading, HTML report output) to evaluate prompt engineering techniques such as being specific, clear and direct, and providing examples, steps, and guidelines |
 
 ## Notes
 
@@ -32,6 +33,11 @@ Reference images used alongside the notebooks, in [Building_with_Claude_API_Cour
 | [temperature-ranges.png](Building_with_Claude_API_Courses/notes/temperature-ranges.png) | Visual reference for how `temperature` values map to more deterministic vs. more creative model outputs |
 | [streaming-response-understanding.png](Building_with_Claude_API_Courses/notes/streaming-response-understanding.png) | Visual reference explaining how streaming responses work |
 | [grader-types.png](Building_with_Claude_API_Courses/notes/grader-types.png) | Visual reference comparing code, model, and human graders for evaluating prompt outputs |
+| [prompt_engineering_technique_be_specific.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_be_specific.png) | Visual reference for the "be specific" prompt engineering technique |
+| [prompt_engineering_technique_clear_direct.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_clear_direct.png) | Visual reference for the "clear and direct" prompt engineering technique |
+| [prompt_engineering_technique_provide_examples.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_provide_examples.png) | Visual reference for the "provide examples" prompt engineering technique |
+| [prompt_engineering_technique_provide_steps.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_provide_steps.png) | Visual reference for the "provide steps" prompt engineering technique |
+| [prompt_engineering_technique_guidelines.png](Building_with_Claude_API_Courses/notes/prompt_engineering_technique_guidelines.png) | Visual reference for the "provide guidelines" prompt engineering technique |
 
 ## Setup
 
