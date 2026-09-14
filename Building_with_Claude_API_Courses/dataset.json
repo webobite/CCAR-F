@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain and strength improvement for weightlifting competition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers full 24-hour period with 4-5 meals distributed throughout the day",
+      "Total daily protein intake is at least 1.7g per kg of body weight (approximately 145g+)",
+      "Includes pre-workout and post-workout meals timed for optimal recovery and muscle synthesis",
+      "Macronutrient balance supports strength training with adequate carbohydrates and healthy fats"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) requiring high protein intake and balanced macronutrients with meal timing optimized for recovery and muscle synthesis"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Maintain weight at 68 kg for lightweight boxing division while preserving strength and endurance for training",
+      "restrictions": "No dairy due to lactose intolerance"
+    },
+    "solution_criteria": [
+      "Plan totals approximately 2,200-2,400 calories to maintain current weight while supporting athletic performance",
+      "Includes minimum 120g protein distributed across meals to preserve muscle mass during weight maintenance",
+      "All meals and snacks are dairy-free and practical for a boxer's training schedule",
+      "Provides a complete 1-day structure with breakfast, lunch, dinner, and pre/post-training nutrition"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-conscious athlete in a sport with weight categories (boxer or wrestler) requiring a calorie-controlled plan that maintains performance while meeting strict nutritional minimums"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate loading and strategic meal timing around a 2-hour morning run",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 3 meals plus pre/post-workout nutrition totaling 3000-3500 calories",
+      "Carbohydrates comprise 55-65% of total daily intake with concentrated portions 2-3 hours before and within 30 minutes after the run",
+      "All meals align with vegetarian diet and exclude nuts",
+      "Plan is presented in a compact, single-day format with clear timing"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific timing around training windows"
+  }
+]
